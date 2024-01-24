@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Button } from './components/ant'
 import { ThemeProvider } from './context/ThemeContext'
@@ -11,17 +10,11 @@ import NotFound from './pages/NotFound'
 import Layout from './components/layout/default'
 import { increment, decrement } from './store/counterSlice'
 import { useAppSelector, useAppDispatch } from './store'
-import { getUser, User } from './store/userSlice'
 import GlobalStyle from './config/global.style'
 
 function App() {
   const count = useAppSelector((state) => state.counter.value)
-  const user = useAppSelector((state) => state.user.users)
   const dispatch = useAppDispatch()
-
-  useEffect(() => {
-    dispatch(getUser())
-  }, [dispatch])
 
   const router = createBrowserRouter([
     {
@@ -113,15 +106,6 @@ function App() {
         <Button type="primary" htmlType="button">
           {count}
         </Button>
-      </div>
-      <div className="d-flex flex-wrap jc-center ai-center g-8">
-        {user?.map((user: User) => {
-          return (
-            <Button type="dashed" key={user.id}>
-              {user.name}
-            </Button>
-          )
-        })}
       </div>
     </ThemeProvider>
   )
