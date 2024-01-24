@@ -2,8 +2,6 @@
 
 import { createSlice, PayloadAction, createAsyncThunk } from '@reduxjs/toolkit'
 
-import axiosInstance from '../utils/api'
-
 export interface User {
   id: number
   name: string
