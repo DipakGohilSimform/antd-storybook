@@ -6,6 +6,7 @@ const meta: Meta<typeof FloatButton> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     icon: { control: HTMLElement },
     type: {

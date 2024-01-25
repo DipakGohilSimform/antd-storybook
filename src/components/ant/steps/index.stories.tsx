@@ -6,6 +6,7 @@ const meta: Meta<typeof Steps> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     direction: { control: 'radio', options: ['horizontal', 'vertical'] },
     labelPlacement: { control: 'radio', options: ['horizontal', 'vertical'] },

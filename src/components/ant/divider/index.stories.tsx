@@ -3,6 +3,7 @@ import { Divider } from '.'
 
 const meta: Meta<typeof Divider> = {
   title: 'Ant Design/Divider',
+  tags: ['autodocs'],
   argTypes: {
     type: {
       control: 'radio',

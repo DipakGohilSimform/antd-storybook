@@ -6,6 +6,7 @@ const meta: Meta<typeof ColorPicker> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     defaultFormat: { control: 'radio', options: ['rgb', 'hex', 'hsb'] },
     format: { control: 'radio', options: ['rgb', 'hex', 'hsb'] },

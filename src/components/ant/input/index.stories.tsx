@@ -6,6 +6,7 @@ const meta: Meta<typeof Input> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     size: { control: 'radio', options: ['large', 'small', 'medium'] },
     variant: {

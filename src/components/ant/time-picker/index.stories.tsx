@@ -6,6 +6,7 @@ const meta: Meta<typeof TimePicker> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     size: { control: 'radio', options: ['large', 'middle', 'small'] },
     status: {

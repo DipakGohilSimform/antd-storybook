@@ -7,6 +7,7 @@ const meta: Meta<typeof Dropdown> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     arrow: { control: 'boolean' },
     autoAdjustOverflow: { control: 'boolean' },

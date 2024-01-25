@@ -6,6 +6,7 @@ const meta: Meta<typeof InputNumber> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     autoFocus: { control: 'boolean' },
     disabled: { control: 'boolean' },

@@ -6,6 +6,7 @@ const meta: Meta<typeof Title> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     type: {
       control: 'radio',

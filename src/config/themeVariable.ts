@@ -87,5 +87,14 @@ export const componentTokens: OverrideToken = {
   },
   Switch: {
     colorPrimary: 'var(--primary-500)'
+  },
+  Collapse: {
+    contentBg: 'var(--primary-200)'
+  },
+  Timeline: {
+    colorPrimary: 'var(--primary-500)'
+  },
+  Tree: {
+    colorPrimary: 'var(--primary-500)'
   }
 }

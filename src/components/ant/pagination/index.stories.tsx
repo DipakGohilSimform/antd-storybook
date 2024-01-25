@@ -6,6 +6,7 @@ const meta: Meta<typeof Pagination> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     size: { control: 'radio', options: ['default', 'medium'] },
     disabled: { control: 'boolean' },
