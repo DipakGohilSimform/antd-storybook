@@ -6,6 +6,7 @@ const meta: Meta<typeof Rate> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     allowClear: { control: 'boolean' },
     allowHalf: { control: 'boolean' },

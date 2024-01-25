@@ -3,7 +3,7 @@ import { Slider } from '.'
 
 const meta: Meta<typeof Slider> = {
   title: 'Ant Design/Slider',
-
+  tags: ['autodocs'],
   argTypes: {
     autoFocus: { control: 'boolean' },
     disabled: { control: 'boolean' },

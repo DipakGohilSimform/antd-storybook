@@ -6,6 +6,7 @@ const meta: Meta<typeof Mentions> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     status: {
       control: 'radio',

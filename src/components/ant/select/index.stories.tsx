@@ -6,6 +6,7 @@ const meta: Meta<typeof Select> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     size: { control: 'radio', options: ['small', 'medium', 'large'] },
     disabled: { control: 'boolean' },

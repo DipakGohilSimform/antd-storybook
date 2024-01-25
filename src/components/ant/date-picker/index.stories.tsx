@@ -6,6 +6,7 @@ const meta: Meta<typeof DatePicker> = {
   parameters: {
     layout: 'centered'
   },
+  tags: ['autodocs'],
   argTypes: {
     format: { control: 'radio', options: ['rgb', 'hex', 'hsb'] },
     size: { control: 'radio', options: ['large', 'middle', 'small'] },
